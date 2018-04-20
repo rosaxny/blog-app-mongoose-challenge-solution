@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: YcHi1H1JzYCReuXzncOfVwYBaaS4jrLU/hWlzs0M/XLgQyRslJ3ioLNsyZE/V4fLJ6RPNUhWZOBypGY7YCPy3B4bIKksLvxCEEEuqKV7c6GsRBvE6ONsMotNc3JckqRA+rkv0WCSQOaO6EFTgvkW4wYY5EWLra6ocRmGuvVeN7ZD00wtJZ/n3WE0xDL5hxIMDszkdowLksos5VuNcUSq+ZncdIwj0vDV1ftZlKq71jsO7a1wTlbS037bfUmbwnIdyenngq2dOybT/d6zDjhRAKXHk9ZtJriEyV0ETMTcie6gzn0J9tmF2oqwB4FVGranIfovkC0SdKC340/ZxnoF0oZKFepnGBK5An2Gximr/uAkVRkMyAxR7bjsvO8qEDdyLbA2CNt0Iz+SlAMEqwXG3b4H1TOJykvR9r4Z/cZyNAXH2feLS+Mv1tEMbK9G/0CYQWAPNOD3eqGFynYpSAD1m0VqELKNXhBYrATFZS1m2NaBTD63f7RKQ05ZyjVxAThC1igMqfCQyT8QWhIkmzo912v7k/eSfWM3nT1mASd8VgJXDjhJoYsc1+xms9mWTfmJ8MXWwMUxmodXepqYhWychQ+Zsk3pWlxUsx6cjQNGFmT3SNNkUS4aLNf/Ts96BkyaRWIMAr36bdm+4Hh9yiCK1zLqk3zdF+paq3C0PoprT9M=
+  app: intense-eyrie-16911
+  on:
+    repo: rosaxny/blog-app-mongoose-challenge-solution
